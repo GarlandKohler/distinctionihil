@@ -1,0 +1,106 @@
+{
+  "name": "distinctionihil",
+  "version": "1.0.0",
+  "description": "swagger to typescript with mock data",
+  "main": "lib/index.js",
+  "bin": {
+    "tsg": "lib/main.js",
+    "ts-gear": "lib/main.js"
+  },
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GarlandKohler/distinctionihil.git"
+  },
+  "peerDependencies": {
+    "axios": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "chalk": "^2.4.2",
+    "commander": "^8.2.0",
+    "cosmiconfig": "^5.2.1",
+    "cross-fetch": "^3.1.5",
+    "fs-extra": "^7.0.1",
+    "json5": "^2.2.0",
+    "lodash": "^4.17.21",
+    "mkdirp": "^1.0.4",
+    "openapi3-ts": "^1.4.0",
+    "path-to-regexp": "^3.0.0",
+    "prettier": "^2.2.1",
+    "prompts": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "swagger-schema-official": "^2.0.0-bab6bed",
+    "traverse": "^0.6.6",
+    "ts-morph": "^11.0.0",
+    "ts-node": "^8.8.2",
+    "tsconfig-paths": "^3.9.0",
+    "url-join": "^4.0.1"
+  },
+  "files": [
+    "*.md",
+    "lib"
+  ],
+  "devDependencies": {
+    "@commitlint/config-conventional": "^13.2.0",
+    "@commitlint/prompt-cli": "^13.2.1",
+    "@types/app-root-path": "^1.2.4",
+    "@types/cosmiconfig": "^5.0.3",
+    "@types/fs-extra": "^5.0.5",
+    "@types/http-server": "^0.10.0",
+    "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.110",
+    "@types/mkdirp": "^1.0.0",
+    "@types/moxios": "^0.4.9",
+    "@types/node": "^11.13.8",
+    "@types/prettier": "^2.2.0",
+    "@types/prompts": "^2.0.5",
+    "@types/rimraf": "^2.0.3",
+    "@types/swagger-schema-official": "^2.0.21",
+    "@types/traverse": "^0.6.25-alpha",
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "axios": "^0.26.1",
+    "commitlint": "^11.0.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-prettier": "^3.1.4",
+    "fetch-mock": "^9.11.0",
+    "husky": "^4.3.0",
+    "jest": "^27.1.1",
+    "jest-coverage-badges": "^1.1.2",
+    "moxios": "^0.4.0",
+    "npm-run-all": "^4.1.5",
+    "open-cli": "^6.0.1",
+    "readline": "^1.3.0",
+    "standard-version": "^9.3.2",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3"
+  },
+  "keywords": [
+    "ut",
+    "swagger",
+    "typescript",
+    "qui",
+    "omnis",
+    "eius",
+    "interface",
+    "structure"
+  ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "author": "TreAnderson",
+  "license": "MIT"
+}
